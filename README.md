@@ -1,6 +1,6 @@
 # Netflix Personal Statistics
 
-This C# program uses the Netflix background API from the [Viewingactivity](https://www.netflix.com/viewingactivity) site.
+This C# program uses the Netflix background API from the [Viewingactivity](https://www.netflix.com/viewingactivity) site to get more information.
 
 # Usage
 
