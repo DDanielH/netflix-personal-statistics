@@ -122,7 +122,7 @@ namespace NetflixInfo
             using (WebClient wc = new WebClient())
             {
                 wc.Headers = new WebHeaderCollection { { "Cookie", cookie } };
-                var json = wc.DownloadString("https://www.netflix.com/api/shakti/7742b8c7/viewingactivity?pg=" + page +"&pgSize=100");
+                var json = wc.DownloadString("https://www.netflix.com/api/shakti/v85d75f53/viewingactivity?pg=" + page + "&pgSize=100");
                 NetflixActivity stuff = JsonConvert.DeserializeObject<NetflixActivity>(json);
                 if (stuff.viewedItems.Count > 0)
                 {
