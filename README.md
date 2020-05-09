@@ -21,7 +21,7 @@ The csv files can easily be viewed with Excel.
 File | Description 
 --- | --- 
 |Netflix.csv|Contains all information the API will give us. With some Excel Filters, this can easily give more information
-|NetflixStats.csv|A shourt summary with the Total Play time and the top 10 personal watched series
+|NetflixStats.csv|A short summary with the Total Play time and the top 10 personal watched series
 |NetflixTimes.csv|Summary for each Day with number of things watched and summed up time. You can easily use the Date and one of the other columns to make some graphs
 
 ![Total](images/total.png "Total")
